@@ -11,7 +11,7 @@ class PagesController
     /**
      * @Route("/age", name ="page_age")
      */
-    public function age(Request $request)
+    public function name (Request $request)
     {
 
        var_dump($request->get('name'));
